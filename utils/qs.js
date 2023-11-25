@@ -7,7 +7,9 @@ const encrypt = new jsencrypt()
 encrypt.setPublicKey(pubkey)
 const data = qs.stringify({
 account: process.env.ACCOUNT,
+account_1: process.env.ACCOUNT_1,
 password: process.env.PASSWORD,
+password_1: process.env.PASSWORD_1,
 school_id: process.env.SCHOOL_ID,
 request_source: 3,
 system: '5.1.1'
