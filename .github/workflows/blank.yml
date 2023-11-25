@@ -22,7 +22,9 @@ jobs:
       - name: 签到日志
         env:
           ACCOUNT: ${{ secrets.ACCOUNT }}
+          ACCOUNT_1: ${{ secrets.ACCOUNT_1 }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          PASSWORD_1: ${{ secrets.PASSWORD_1 }}
           ADDRESS: ${{ secrets.ADDRESS }}
           ADDRESS_NAME: ${{ secrets.ADDRESS_NAME }}
           LATITUDE: ${{ secrets.LATITUDE }}
